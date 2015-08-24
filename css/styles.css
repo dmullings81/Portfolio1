@@ -1,8 +1,14 @@
 .blkback {
 	background-color: black;
 	color: white;
+	padding-right: 10px;
+	border-bottom: solid 2px red;
 }
 .container-liquid {
   padding: 0;
   margin: 0 auto;
+}
+
+main {
+	margin-top: 20px;
 }
