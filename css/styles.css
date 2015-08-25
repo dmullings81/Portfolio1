@@ -13,20 +13,42 @@
 	background-color: black;
 	color: white;
 	border-top: solid 2px red;
+	margin-top: 40px;
+	padding: 10px;
 }
-main {
-	margin-top: 20px;
+.portfoliopic {
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.grey {
+	background-color: #f2f2f2;
+}
+.sociallink:link {
+	color: #55acee;
+}
+.sociallink:visited {
+	color: #55acee;
+}
+.sociallink:hover {
+	color: #55acee;
+	-webkit-animation: bounce 1s;
+    animation: bounce 1s;
 }
 i {
 	padding: 5px;
 }
-p, h3, h4 {
+p, h2, h3, h4 {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
 	font-family: 'Amiri', serif;
 	font-size: 40px;
 	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+h2 {
+	font-weight: 600;
+	font-size: 30px;
 	margin-bottom: 0px;
 }
 h3 {
@@ -36,5 +58,19 @@ h3 {
 }
 
 h4 {
+	padding-bottom: 0px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+.tagline {
+	padding-top: 10px;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
 
+.splash {
+	margin: 0px 0 60px;
+}
+.splashhead {
+	margin-top: 80px;
 }
