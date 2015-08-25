@@ -37,11 +37,11 @@
 i {
 	padding: 5px;
 }
-p, h2, h3, h4 {
+p, h1, h2, h3, h4 {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
-	font-family: 'Amiri', serif;
+
 	font-size: 40px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;

@@ -11,7 +11,8 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.min.css">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 <body>
 	<div class="container-liquid">
@@ -38,9 +39,8 @@
 			</div>
 			<section class="row, text-center">
 				<div class="col-md-4">
-					<img src="http://placekitten.com/900/600" class="img-responsive portfoliopic" alt="Project 1">
+					<img src="http://placekitten.com/900/600" class="img-responsive portfoliopic" alt="Project 1" data-toggle="modal" data-target="#myModal">
 					<h4 class="text-uppercase">CV/Re&#769sume&#769</h4>
-
 				</div>
 				<div class="col-md-4">
 					<img src="http://placekitten.com/900/600" class="img-responsive portfoliopic" alt="Project 2">
@@ -57,17 +57,14 @@
 				<div class="col-md-4">
 					<img src="http://placekitten.com/900/600" class="img-responsive portfoliopic" alt="Project 1">
 					<h4 class="text-uppercase">CV/Re&#769sume&#769</h4>
-					<p>https://github.com/dmullings81</p>
 				</div>
 				<div class="col-md-4">
 					<img src="http://placekitten.com/900/600" class="img-responsive portfoliopic" alt="Project 2">
 					<h4 class="text-uppercase">JavaScript Game</h4>
-					<p>https://github.com/dmullings81</p>
 				</div>
 				<div class="col-md-4">
 					<img src="http://placekitten.com/900/600" class="img-responsive portfoliopic" alt="Project 3">
 					<h4 class="text-uppercase">Interactive Map</h4>
-					<p>https://github.com/dmullings81</p>
 				</div>
 			</section>
 		</main>
@@ -89,6 +86,25 @@
 			</div>
 		</footer>
 	</div>
+	<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 </body>
 </html>
