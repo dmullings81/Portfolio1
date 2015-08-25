@@ -13,7 +13,7 @@
 	background-color: black;
 	color: white;
 	border-top: solid 2px red;
-	margin-top: 40px;
+	margin: 40px 0 0;
 	padding: 10px;
 }
 .portfoliopic {
@@ -24,15 +24,15 @@
 	background-color: #f2f2f2;
 }
 .sociallink:link {
-	color: #55acee;
+	color: #E40C0C;
 }
 .sociallink:visited {
-	color: #55acee;
+	color: #E40C0C;
 }
 .sociallink:hover {
-	color: #55acee;
-	-webkit-animation: bounce 1s;
-    animation: bounce 1s;
+	color: #E40C0C;
+	-webkit-animation: pulse 1s;
+    animation: pulse 1s;
 }
 i {
 	padding: 5px;
