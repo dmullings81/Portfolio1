@@ -20,6 +20,9 @@
 	border-radius: 10px;
 	margin-top: 15px;
 }
+.portfoliopic:hover {
+	cursor: pointer;
+}
 .grey {
 	background-color: #f2f2f2;
 }
@@ -63,6 +66,10 @@ h4 {
 	margin-top: 2px;
 }
 
+td {
+	color: white;
+}
+
 .backtotop {
 	font-size: 20px;
 	color: #E40C0C;
@@ -79,6 +86,25 @@ h4 {
 .backtotop:hover {
 	color: white;
 	text-decoration: none;
+}
+
+.morelink {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #E40C0C;
+	font-weight: 600;
+}
+.morelink:link {
+	color: #E40C0C;
+	text-decoration: none;
+}
+.morelink:visited {
+	color: #E40C0C;
+	text-decoration: none;
+}
+.morelink:hover {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .tagline {
@@ -107,4 +133,12 @@ table {
 
 .heading {
 	margin-top: -20px;
+}
+
+.social {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dmlogo {
+  padding-top: 8px;
 }
