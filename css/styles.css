@@ -31,13 +31,13 @@
 }
 .sociallink:hover {
 	color: #E40C0C;
-	-webkit-animation: pulse 1s;
-    animation: pulse 1s;
+	-webkit-animation: bounce 1s;
+    animation: bounce 1s;
 }
 i {
 	padding: 5px;
 }
-p, h1, h2, h3, h4 {
+p, h1, h2, h3, h4, a {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
@@ -62,6 +62,25 @@ h4 {
 	margin-bottom: 2px;
 	margin-top: 2px;
 }
+
+.backtotop {
+	font-size: 20px;
+	color: #E40C0C;
+	font-weight: 600;
+}
+.backtotop:link {
+	color: #E40C0C;
+	text-decoration: none;
+}
+.backtotop:visited {
+	color: #E40C0C;
+	text-decoration: none;
+}
+.backtotop:hover {
+	color: white;
+	text-decoration: none;
+}
+
 .tagline {
 	padding-top: 10px;
 	font-size: 20px;
@@ -79,5 +98,13 @@ h4 {
 }
 .center-table
 {
-  margin: 0 auto !important;
+  margin: 0 auto;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 10px 10px;
+}
+
+.heading {
+	margin-top: -20px;
 }
