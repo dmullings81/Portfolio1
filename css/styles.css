@@ -142,3 +142,9 @@ table {
 .dmlogo {
   padding-top: 8px;
 }
+
+@media screen and (min-width: 500px) {
+    .modal .portfoliopic {
+        width: 500px;
+    }
+}
