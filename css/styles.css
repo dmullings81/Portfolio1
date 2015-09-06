@@ -1,106 +1,118 @@
-.blkback {
-	background-color: black;
-	color: white;
-	padding-left: 20px;
-	border-bottom: solid 2px #e3000a;
-}
-
-
-.blkbottom {
+.page-footer {
 	background-color: black;
 	color: white;
 	border-top: solid 2px #e3000a;
 	margin: 40px 0 0;
 	padding: 10px;
 }
-.portfoliopic {
+
+.portfolio-pic {
 	border-radius: 10px;
 	margin-top: 15px;
 }
-.portfoliopic:hover {
+
+.portfolio-pic:hover {
 	cursor: pointer;
 }
+
 .grey {
 	background-color: #f2f2f2;
 }
-.sociallink:link {
+
+.social-link:link {
 	color: #E40C0C;
 }
-.sociallink:visited {
+
+.social-link:visited {
 	color: #E40C0C;
 }
-.sociallink:hover {
+
+.social-link:hover {
 	color: #E40C0C;
 	-webkit-animation: bounce 1s;
     animation: bounce 1s;
 }
+
 i {
 	padding: 5px;
 }
+
 p, h1, h2, h3, h4, a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 }
+
 h1 {
 
 	font-size: 40px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+	padding: 0;
+	margin: 20px 0 0;
 }
+
 h2 {
 	font-weight: 600;
 	font-size: 30px;
-	margin-bottom: 0px;
+	margin: 0;
 }
+
 h3 {
 	font-size: 17px;
-	padding-top: 0px;
-	margin-top: 0px;
+	padding: 0;
+	margin: 0 0 5px;
 }
 
 h4 {
-	padding-bottom: 0px;
-	margin-bottom: 2px;
-	margin-top: 2px;
+	padding: 0;
+	margin: 2px 0 2px;
 }
 
 td {
-	color: white;
+	color: #fff;
 }
 
-.backtotop {
+.back-to-top {
 	font-size: 20px;
 	color: #E40C0C;
 	font-weight: 600;
 }
-.backtotop:link {
+
+.back-to-top:link {
 	color: #E40C0C;
-	text-decoration: none;
-}
-.backtotop:visited {
-	color: #E40C0C;
-	text-decoration: none;
-}
-.backtotop:hover {
-	color: white;
 	text-decoration: none;
 }
 
-.morelink {
-	font-family: 'Source Sans Pro', sans-serif;
+.back-to-top:visited {
+	color: #E40C0C;
+	text-decoration: none;
+}
+
+.back-to-top:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.more-link {
+	font-family: "Source Sans Pro", sans-serif;
 	color: #E40C0C;
 	font-weight: 600;
 }
-.morelink:link {
+
+.more-link:link {
 	color: #E40C0C;
 	text-decoration: none;
 }
-.morelink:visited {
+
+.more-link:visited {
 	color: #E40C0C;
 	text-decoration: none;
 }
-.morelink:hover {
-	color: white;
+
+.more-link:hover {
+	color: #fff;
 	text-decoration: none;
+	cursor: pointer;
+}
+
+.title-link:hover {
 	cursor: pointer;
 }
 
@@ -111,26 +123,29 @@ td {
 }
 
 .splash {
-	margin: 0px 0 60px;
+	margin: -20px 0 60px;
 }
-.splashhead {
+
+.splash-head {
 	margin-top: 80px;
 }
-#portfoliotitle {
+
+#portfolio-title {
 	margin-bottom: -20px;
 }
+
 .center-table
 {
   margin: 0 auto;
 }
+
 table {
 	border-collapse: separate;
 	border-spacing: 10px 10px;
 }
 
-
 .social {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 @media screen and (min-width: 500px) {
@@ -143,23 +158,27 @@ table {
   background-color: black;
   border-bottom: solid 2px #e3000a;
 }
+
 .navbar-default .navbar-nav > li > a {
   color: #e3000a;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-}
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
 
 .navbar-default .navbar-toggle {
   border: none;
 }
+
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #000000;
+  background-color: #000;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #e3000a;
 }
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-width: 2px;
@@ -182,16 +201,17 @@ table {
 #navbar-hamburger {
     position: relative;
 }
+
 .navbar-header button {
     position: absolute;
     bottom: 0;
     right: -20px;
-    margin-bottom: 0px;
-	}
+    margin-bottom: 0;
+}
 
-.titletext {
-	margin-top: -15px;
-	color: white;
+.title-text {
+	margin: -15px 0 0;
+	color: #fff;
 }
 
 @media (max-width: 450px) {
@@ -204,15 +224,15 @@ table {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #e3000a;
   }
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
+    color: #fff;
   }
+
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #000000;
+    color: #fff;
+    background-color: #000;
   }
 }
 
-.navbar-header {
-	color: white;
-}
+
