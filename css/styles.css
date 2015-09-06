@@ -2,17 +2,14 @@
 	background-color: black;
 	color: white;
 	padding-left: 20px;
-	border-bottom: solid 2px red;
+	border-bottom: solid 2px #e3000a;
 }
-.container-liquid {
-  padding: 0;
-  margin: 0 auto;
-}
+
 
 .blkbottom {
 	background-color: black;
 	color: white;
-	border-top: solid 2px red;
+	border-top: solid 2px #e3000a;
 	margin: 40px 0 0;
 	padding: 10px;
 }
@@ -119,7 +116,7 @@ td {
 .splashhead {
 	margin-top: 80px;
 }
-.portfoliotitle {
+#portfoliotitle {
 	margin-bottom: -20px;
 }
 .center-table
@@ -131,20 +128,91 @@ table {
 	border-spacing: 10px 10px;
 }
 
-.heading {
-	margin-top: -20px;
-}
 
 .social {
 	font-family: 'Source Sans Pro', sans-serif;
-}
-
-.dmlogo {
-  padding-top: 8px;
 }
 
 @media screen and (min-width: 500px) {
     .modal .portfoliopic {
         width: 500px;
     }
+}
+
+.navbar-default {
+  background-color: black;
+  border-bottom: solid 2px #e3000a;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #e3000a;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e3000a;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-width: 2px;
+  border-color: #e3000a;
+}
+
+#bs-example-navbar-collapse-1 {
+    position: relative;
+}
+
+@media (min-width: 767px) {
+	#bs-example-navbar-collapse-1 .nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -10px;
+	}
+}
+
+#navbar-hamburger {
+    position: relative;
+}
+.navbar-header button {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    margin-bottom: 0px;
+	}
+
+.titletext {
+	margin-top: -15px;
+	color: white;
+}
+
+@media (max-width: 450px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #e3000a;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+.navbar-header {
+	color: white;
 }
