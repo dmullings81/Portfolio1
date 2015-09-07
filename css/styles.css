@@ -44,13 +44,18 @@ h4 {
 	cursor: pointer;
 }
 
+.title-link:visited {
+	color: #DA020E;
+	text-decoration: none;
+}
+
 .navbar-default {
   background-color: #272d2e;
-  border-bottom: solid 2px #e3000a;
+  border-bottom: solid 2px #DA020E;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #e3000a;
+  color: #DA020E;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -66,13 +71,13 @@ h4 {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #e3000a;
+  background-color: #DA020E;
 }
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-width: 2px;
-  border-color: #e3000a;
+  border-color: #DA020E;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -112,7 +117,7 @@ h4 {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #e3000a;
+    color: #DA020E;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -166,7 +171,7 @@ h4 {
 .page-footer {
 	background-color: #272d2e;
 	color: white;
-	border-top: solid 2px #e3000a;
+	border-top: solid 2px #DA020E;
 	margin: 40px 0 0;
 	padding: 10px;
 }
@@ -182,15 +187,15 @@ table {
 }
 
 .social-link:link {
-	color: #E40C0C;
+	color: #DA020E;
 }
 
 .social-link:visited {
-	color: #E40C0C;
+	color: #DA020E;
 }
 
 .social-link:hover {
-	color: #E40C0C;
+	color: #DA020E;
 	-webkit-animation: bounce 1s;
     animation: bounce 1s;
 }
@@ -205,17 +210,17 @@ td {
 
 .back-to-top {
 	font-size: 20px;
-	color: #E40C0C;
+	color: #DA020E;
 	font-weight: 600;
 }
 
 .back-to-top:link {
-	color: #E40C0C;
+	color: #DA020E;
 	text-decoration: none;
 }
 
 .back-to-top:visited {
-	color: #E40C0C;
+	color: #DA020E;
 	text-decoration: none;
 }
 
@@ -226,17 +231,17 @@ td {
 
 .more-link {
 	font-family: "Source Sans Pro", sans-serif;
-	color: #E40C0C;
+	color: #DA020E;
 	font-weight: 600;
 }
 
 .more-link:link {
-	color: #E40C0C;
+	color: #DA020E;
 	text-decoration: none;
 }
 
 .more-link:visited {
-	color: #E40C0C;
+	color: #DA020E;
 	text-decoration: none;
 }
 
