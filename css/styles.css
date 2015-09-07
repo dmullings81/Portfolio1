@@ -44,40 +44,36 @@ h4 {
 	cursor: pointer;
 }
 
-.title-link:visited {
+.navbar-default {
+	background-color: #272d2e;
+	border-bottom: solid 2px #DA020E;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #DA020E;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #DA020E;
 	text-decoration: none;
 }
 
-.navbar-default {
-  background-color: #272d2e;
-  border-bottom: solid 2px #DA020E;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #DA020E;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
-}
-
 .navbar-default .navbar-toggle {
-  border: none;
+	border: none;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #000;
+	background-color: #272d2e;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #DA020E;
+	background-color: #DA020E;
 }
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-width: 2px;
-  border-color: #DA020E;
+	border-width: 2px;
+	border-color: #DA020E;
 }
 
 #bs-example-navbar-collapse-1 {
