@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Portfolio | Dimitris Mullings</title>
-		<link href="http://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,200" rel="stylesheet">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/animate.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="bower_components/platform/platform.js"></script>
-		<link rel="import" href="bower_components/polymer-slidenav/dist/polymer-slidenav.html">
-	</head>
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio | Dimitris Mullings</title>
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,200" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
 <body>
-<!-- Title Bar -->
-	<nav class="navbar navbar-default navbar-static-top">
-  <div class="container-fluid">
+<!-- Title Nav Bar from Bootstrap-->
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div id="navbar-hamburger">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-      <div class="title-text">
-        <h1 class="text-uppercase">Dimitris Mullings</h1>
-        <h3 class="text-uppercase"> &nbsp &nbsp &nbsp &nbsp Front-End Web Developer</h3>
+      <div id="navbar-hamburger">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="title-text">
+          <h1 class="text-uppercase">Dimitris Mullings</h1>
+          <h3 class="text-uppercase"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Front-End Web Developer</h3>
+        </div>
+      </div>
+
+    <!-- Nav links  for toggling -->
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right back-to-top text-uppercase">
+          <li><a class ="title-link" data-toggle="modal" data-target="#about-me-modal">About me</a></li>
+          <li><a href="#portfolio-title">Portfolio</a></li>
+          <li><a href="#socialbottom">Social</a></li>
+        </ul>
       </div>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right back-to-top text-uppercase">
-        <li><a class ="title-link" data-toggle="modal" data-target="#p6modal">About me</a></li>
-        <li><a href="#portfolio-title">Portfolio</a></li>
-        <li><a href="#socialbottom">Social</a></li>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div>
-</nav>
+  </nav>
 
 
 <!-- Splash Area -->
-	<main class="container-liquid, grey">
+	<div class="container-liquid, grey">
 		<section class="row splash">
 			<div class="col-md-12, text-center text-italic">
 				<h1 class="splash-head">Modern & Responsive Web Development</h1>
-				<p class="tagline"><i>Using HTML5, CSS3, Javascript, Bootstrap, Jquery and others to create clean, efficient websites that look great on any device</i></p>
+				<p class="tagline"><i>Using HTML5, CSS3, JavaScript, jQuery and frameworks to create clean, efficient websites that look great on any device</i></p>
 			</div>
 		</section>
-	</main>
+	</div>
+
 <!-- Portfolio -->
 	<main class="container">
-		</section>
-			<div class="row">
-				<div class="col-sm-6 col-md-12 " id="portfolio-title">
-					<h2 class="text-center text-uppercase">Portfolio of Work</h2>
-					<p class="text-center">(click for more info)</p>
-				</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-12 " id="portfolio-title">
+				<h2 class="text-center text-uppercase">Portfolio of Work</h2>
+				<p class="text-center">(click for more info)</p>
 			</div>
+		</div>
 		<section class="row, text-center">
 			<div class="col-sm-6 col-md-4">
 				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of CV/Resume site" data-toggle="modal" data-target="#p1modal">
@@ -76,34 +72,33 @@
 			<div class="col-sm-6 col-md-4">
 				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of arcade game site" data-toggle="modal" data-target="#p2modal">
 				<h4 class="text-uppercase">Arcade Game</h4>
-
 			</div>
-				<div class="col-sm-6 col-md-4">
-					<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of optimisation project site" data-toggle="modal" data-target="#p3modal">
-					<h4 class="text-uppercase">Optimisation Project</h4>
-
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of interactive map site" data-toggle="modal" data-target="#p4modal">
-					<h4 class="text-uppercase">Interactive Map</h4>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of health tracker site" data-toggle="modal" data-target="#p5modal">
-					<h4 class="text-uppercase">Health Tracker</h4>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of portfolio site" data-toggle="modal" data-target="#p6modal">
-					<h4 class="text-uppercase">Portfolio</h4>
-				</div>
-			</section>
-		</main>
+			<div class="col-sm-6 col-md-4">
+				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of optimisation project site" data-toggle="modal" data-target="#p3modal">
+				<h4 class="text-uppercase">Optimisation Project</h4>
+      </div>
+			<div class="col-sm-6 col-md-4">
+				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of interactive map site" data-toggle="modal" data-target="#p4modal">
+				<h4 class="text-uppercase">Interactive Map</h4>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of health tracker site" data-toggle="modal" data-target="#p5modal">
+				<h4 class="text-uppercase">Health Tracker</h4>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic" alt="Screenshot of portfolio site" data-toggle="modal" data-target="#p6modal">
+				<h4 class="text-uppercase">Portfolio</h4>
+			</div>
+		</section>
+	</main>
 <!-- Footer -->
 	<div class="container-liquid">
 		<footer class="row page-footer">
 			<div class="col-md-3">
 				<h4 class="text-uppercase">about me</h4>
-				<p>I am a trained front end developer, with a thorough knowledge and experience of using HTML5, CSS3,  JavaScript, Bootstrap and Wordpress to make responsive, clean and modern websites. Available for freelance work on projects worldwide. <a class="more-link" data-toggle="modal" data-target="#p6modal">&nbsp;More...<a><p>
+				<p>I am a trained front end developer, with a thorough knowledge and experience of using HTML5, CSS3, JavaScript, frameworks and Wordpress to make responsive, clean and modern websites. Available for freelance work on projects worldwide <a class="more-link" data-toggle="modal" data-target="#about-me-modal">&nbsp;More...</a></p>
 			</div>
+      <!-- Contact and Social links  -->
 			<div class="col-md-6 text-center">
 				<table  class="center-table text-uppercase social" id="socialbottom">
 					<tr>
@@ -114,147 +109,162 @@
 					<tr>
 						<td><a href="http://codepen.io/" target="_blank" class="social-link"><i class="fa fa-codepen fa-2x"></i></a><br>CodePen</td>
 						<td><a href="https://twitter.com/" target="_blank" class="social-link"><i class="fa fa-file-text-o fa-2x"></i></a><br>CV/Résumé</td>
-						<td><a href="https://twitter.com/" target="_blank" class="social-link"><i class="fa fa-envelope-o fa-2x"></i></a><br>Contact</td>
+						<td><a href="mailto:dimitrimullings@hotmail.com" class="social-link"><i class="fa fa-envelope-o fa-2x"></i></a><br>Contact</td>
 					</tr>
 				</table>
 			</div>
 			<div class="col-md-3 text-right">
-				<a href="#"  class="back-to-top text-uppercase">Back To Top <i class="fa fa-arrow-circle-up"></i></i></a>
+				<a href="#"  class="back-to-top text-uppercase">Back To Top <i class="fa fa-arrow-circle-up"></i></a>
 			</div>
 		</footer>
 	</div>
 <!-- modalplugin code from w3schools -->
 	<!-- P1 Modal -->
 	<div id="p1modal" class="modal fade" role="dialog">
-  		<div class="modal-dialog">
-
+  	<div class="modal-dialog">
     <!-- P1 Modal content-->
-    		<div class="modal-content">
-      	 		<div class="modal-body">
-      				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of CV/Resume site" >
-      				<h4 class="modal-title text-center text-uppercase">Interactive CV/Résumé</h4>
-        			<p>
-        				<br>You'll demonstrate your mastery of the language's syntax through a series of challenges. Each multipart problem mimics a real-life challenge that front-end developers face. You'll be required to write clean code and to apply your knowledge of variables, objects, JSON, functions and control flow to successfully solve the challenges.</p>
-        				<div class="linkbuttons text-center">
-        					<a class="btn btn-default" href="#" role="button">View Site</a>
-        					<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
-        				</div>
-      			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-     		 	</div>
-    		</div>
-  		</div>
-	</div>
-	<!-- P2 Modal -->
-	<div id="p2modal" class="modal fade" role="dialog">
-  		<div class="modal-dialog">
-
-    <!-- P2 Modal content-->
-   			<div class="modal-content">
-      			<div class="modal-body">
-      				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of arcade game site">
-      				<h4 class="modal-title text-center text-uppercase">Arcade Game</h4>
-       				<p><br>You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.</p>
-       				<div class="linkbuttons text-center">
-       					<a class="btn btn-default" href="#" role="button">View Site</a>
+    	<div class="modal-content">
+      	<div class="modal-body">
+      		<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of CV/Resume site">
+      		<h4 class="modal-title text-center text-uppercase">Interactive CV/Résumé</h4>
+        		<p><br>You'll demonstrate your mastery of the language's syntax through a series of challenges. Each multipart problem mimics a real-life challenge that front-end developers face. You'll be required to write clean code and to apply your knowledge of variables, objects, JSON, functions and control flow to successfully solve the challenges.</p>
+        		  <div class="linkbuttons text-center">
+        				<a class="btn btn-default" href="#" role="button">View Site</a>
         				<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
         			</div>
-     			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      			</div>
-    		</div>
-  		</div>
+      	</div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     		</div>
+    	</div>
+  	</div>
+	</div>
+
+	<!-- P2 Modal -->
+	<div id="p2modal" class="modal fade" role="dialog">
+  	<div class="modal-dialog">
+    <!-- P2 Modal content-->
+   		<div class="modal-content">
+      	<div class="modal-body">
+      		<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of arcade game site">
+      		<h4 class="modal-title text-center text-uppercase">Arcade Game</h4>
+       		<p><br>You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.</p>
+            <div class="linkbuttons text-center">
+       				<a class="btn btn-default" href="#" role="button">View Site</a>
+        			<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
+        		</div>
+     		</div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      	</div>
+    	</div>
+  	</div>
 	</div>
 
 	<!-- P3 Modal -->
 	<div id="p3modal" class="modal fade" role="dialog">
-  		<div class="modal-dialog">
-
+  	<div class="modal-dialog">
     <!-- P3 Modal content-->
-    		<div class="modal-content">
-      			<div class="modal-body">
-      				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of optimisation project site">
-      				<h4 class="modal-title text-center text-uppercase">Optimisation Project</h4>
-        			<p><br>You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.</p>
-        			<div class="linkbuttons text-center">
-        				<a class="btn btn-default" href="#" role="button">View Site</a>
-        				<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
-        			</div>
-      			</div>
-    			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    			</div>
+    	<div class="modal-content">
+      	<div class="modal-body">
+      		<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of optimisation project site">
+      		<h4 class="modal-title text-center text-uppercase">Optimisation Project</h4>
+        	<p><br>You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.</p>
+            <div class="linkbuttons text-center">
+        			<a class="btn btn-default" href="#" role="button">View Site</a>
+        			<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
+            </div>
+      	</div>
+    		<div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     		</div>
-  		</div>
+    	</div>
+  	</div>
 	</div>
 
 	<!-- P4 Modal -->
 	<div id="p4modal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
-
     <!-- P4 Modal content-->
-    		<div class="modal-content">
-    			<div class="modal-body">
-    				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of interactive map site">
-    				<h4 class="modal-title text-center text-uppercase">Interactive Map</h4>
-        			<p><br>You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).</p>
-        			<div class="linkbuttons text-center">
-        				<a class="btn btn-default" href="#" role="button">View Site</a>
-        				<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
-        			</div>
-    			</div>
-    			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    			</div>
+    	<div class="modal-content">
+    		<div class="modal-body">
+    			<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of interactive map site">
+    			<h4 class="modal-title text-center text-uppercase">Interactive Map</h4>
+        	<p><br>You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).</p>
+        		<div class="linkbuttons text-center">
+        			<a class="btn btn-default" href="#" role="button">View Site</a>
+        			<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
+        		</div>
     		</div>
+    		<div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    		</div>
+    	</div>
 		</div>
 	</div>
 
 	<!-- P5 Modal -->
 	<div id="p5modal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
-
     <!-- P5 Modal content-->
-    		<div class="modal-content">
-    			<div class="modal-body">
-    				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of health tracker site">
-    				<h4 class="modal-title text-center text-uppercase">Health Tracker</h4>
-        			<p>Using Backbone, you will develop a single page app that tracks the user's calorie intake, and optionally, other health-related metrics. Typing food names into the search field will display a list of matching foods as provided by the health API. Users will be able to select an item from the list, and the item will be added to the list of foods the user is tracking. The total calorie count will also update to reflect the new daily total.</p>
-        			<div class="linkbuttons text-center">
-        				<a class="btn btn-default" href="#" role="button">View Site</a>
-        				<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
-        			</div>
-    			</div>
-    			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    			</div>
+    	<div class="modal-content">
+    		<div class="modal-body">
+    			<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of health tracker site">
+    			<h4 class="modal-title text-center text-uppercase">Health Tracker</h4>
+        	<p>Using Backbone, you will develop a single page app that tracks the user's calorie intake, and optionally, other health-related metrics. Typing food names into the search field will display a list of matching foods as provided by the health API. Users will be able to select an item from the list, and the item will be added to the list of foods the user is tracking. The total calorie count will also update to reflect the new daily total.</p>
+        		<div class="linkbuttons text-center">
+        			<a class="btn btn-default" href="#" role="button">View Site</a>
+        			<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
+        		</div>
     		</div>
+    		<div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    		</div>
+    	</div>
 		</div>
 	</div>
 
 	<!-- P6 Modal -->
 	<div id="p6modal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
-
     <!-- P6 Modal content-->
-    		<div class="modal-content">
-    			<div class="modal-body">
-    				<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of portfolio site">
-    				<h4 class="modal-title text-center text-uppercase">Portfolio</h4>
-        			<p>The first project in the Udacity Front-end Nanodegree was too create a portfolio from a basic pdf mock-up. I reworked the mock-up myself and the end result is what you see here. I ended up using the Bootstrap framework for the layout, modals and navbar. I added a few extra features such as animated CSS social icons and CCS overlay transitions. Images have also been optimised and alternatives provided using srcset.</p>
-        			<div class="linkbuttons text-center">
-        				<a class="btn btn-default" href="#" role="button">View Site</a>
-        				<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
-        			</div>
-    			</div>
-    			<div class="modal-footer">
-    				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    			</div>
+    	<div class="modal-content">
+    		<div class="modal-body">
+    			<img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of portfolio site">
+    			<h4 class="modal-title text-center text-uppercase">Portfolio</h4>
+        	<p>The first project in the Udacity Front-end Nanodegree was too create a portfolio from a basic pdf mock-up. I reworked the mock-up myself and the end result is what you see here. I ended up using the Bootstrap framework for the layout, modals and navbar. I added a few extra features such as animated CSS social icons and CCS overlay transitions. Images have also been optimised and alternatives provided using srcset.</p>
+        		<div class="linkbuttons text-center">
+        			<a class="btn btn-default" href="#" role="button">View Site</a>
+        			<a class="btn btn-default" href="https://github.com/" target="_blank" role="button">View on GitHub</a>
+        		</div>
     		</div>
-  		</div>
+    		<div class="modal-footer">
+    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    		</div>
+    	</div>
+  	</div>
 	</div>
+
+  <!-- About Me modal Modal -->
+  <div id="about-me-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+    <!-- About Me Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="http://placekitten.com/700/450" srcset="http://placekitten.com/1400/900 2x" class="img-responsive portfolio-pic center-block" alt="Screenshot of portfolio site">
+          <h4 class="modal-title text-center text-uppercase">ABOUT ME</h4>
+          <p>I am British front-end web developer based in Japan. In 2016 I completed Udacity's Front-End Web Developer Nanodegree, a online program designed by top Silicon Valley companies such as Google and AT&T. Through this and many other modes of learning I have a strong foundation in the fundamental languages of HTML5, CSS3 and JavaScript. I also have experience of using many common web technologies including frameworks such as Bootstrap & Knockout, jQuery, third-party APIs, GitHub and Node.js. I understand the importance of speed and implement this through optimization techniques and the use of best practices in architecture and design.
+          I am interested in worldwide projects of any kind, please drop me an email with your requirements!</p>
+          <div class="linkbuttons text-center">
+              <a class="btn btn-default" href="mailto:dimitrimullings@hotmail.com" role="button">Email me</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
