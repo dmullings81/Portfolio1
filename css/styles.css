@@ -44,11 +44,6 @@ h4 {
 	cursor: pointer;
 }
 
-.title-link:visited {
-	color: #DA020E;
-	text-decoration: none;
-}
-
 .navbar-default {
   background-color: #272d2e;
   border-bottom: solid 2px #DA020E;
@@ -59,7 +54,8 @@ h4 {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
+	color: #DA020E;
+	text-decoration: none;
 }
 
 .navbar-default .navbar-toggle {
