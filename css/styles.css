@@ -196,6 +196,8 @@ table {
     animation: bounce 1s;
 }
 
+/* Icon animations from animate.css */
+
 i {
 	padding: 5px;
 }
