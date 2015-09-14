@@ -212,12 +212,7 @@ td {
 	font-weight: 600;
 }
 
-.back-to-top:link {
-	color: #DA020E;
-	text-decoration: none;
-}
-
-.back-to-top:visited {
+.back-to-top:link, .back-to-top:focus, .back-to-top:visited {
 	color: #DA020E;
 	text-decoration: none;
 }
