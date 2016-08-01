@@ -48,6 +48,11 @@ a:focus {
   outline: none;
 }
 
+.portfolio-pic {
+	border-style: solid;
+	border-color: #272d2e;
+	border-width: 1px;
+}
 .navbar-default {
 	background-color: #272d2e;
 	border-bottom: solid 2px #DA020E;
